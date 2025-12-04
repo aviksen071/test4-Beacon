@@ -407,6 +407,32 @@ p {
   cursor: pointer;
 }
 
+.social-icons {
+  margin-top: 24px;
+}
+
+.social-icons ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons ul li {
+  list-style: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons ul li a {
+  color: #18212d;
+}
+
 .footer-bottom {
   text-align: center;
   margin-top: 50px;
